@@ -9,7 +9,7 @@ Once all rules are generated, we create a "board" of "slots" (a "slot" is just a
 
 
 <p align="center">
-The five modules:
+The five modules:<br>
 <img src="https://github.com/PaulBenMarsh/BlenderAPI-WaveFunctionCollapse/blob/master/screenshots/five_modules.png?raw=true">
 </p>
 
