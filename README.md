@@ -21,12 +21,9 @@ Traditionally, as slots are being collapsed, to determine which slot should be c
 This is predicated on the fact that normally, one would update the valid, possible states of all slots after collapsing any given slot. In this code, I've elected to compute a given slots possible valid states only when it is being asked to collapse by looking at the state of its immediate, adjacent neighbor slots.
 For this reason, the board isn't populated according to "lowest-entropy-first", unfortunately.
 
+<p align="center">
 <span>
-<p align="center">
 <img src="https://github.com/PaulBenMarsh/BlenderAPI-WaveFunctionCollapse/blob/master/screenshots/loop_1.gif?raw=true">
-</p>
-
-<p align="center">
 <img src="https://github.com/PaulBenMarsh/BlenderAPI-WaveFunctionCollapse/blob/master/screenshots/loop_2.gif?raw=true">
-</p>
 </span>
+</p>
