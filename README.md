@@ -14,6 +14,7 @@ The five modules:<br>
 </p>
 
 <p align="center">
+A fully collapsed, procedurally generated board:<br>
 <img src="https://github.com/PaulBenMarsh/BlenderAPI-WaveFunctionCollapse/blob/master/screenshots/board.png?raw=true">
 </p>
 
