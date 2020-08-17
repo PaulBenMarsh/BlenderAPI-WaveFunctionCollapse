@@ -19,7 +19,7 @@ A fully collapsed, procedurally generated board:<br>
 </p>
 
 Traditionally, as slots are being collapsed, to determine which slot should be collapsed next, one would find the slot with the least "entropy" - the slot with the lowest number of possible valid states into which it can collapse.
-This only works if one updates the valid, possible states of all slots after collapsing any given slot. In this code, I've elected to compute a given slots possible valid states only when it is being asked to collapse by looking at the state of its immediate, adjacent neighbor slots.
+This only works if one updates the possible valid states of all slots after collapsing any given slot. In this code, I've elected to compute a given slots possible valid states only when it is being asked to collapse by looking at the state of its immediate, adjacent neighbor slots.
 For this reason, the board isn't populated according to "lowest-entropy-first", unfortunately.
 
 <p align="center">
